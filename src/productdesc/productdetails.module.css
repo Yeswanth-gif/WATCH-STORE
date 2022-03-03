@@ -1,0 +1,62 @@
+.productdata {
+    width: 100%;
+  }
+  
+  .productdata > h1 {
+    font-family: sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+  }
+  
+  .imagetype {
+    width: 100%;
+    max-width: 80px;
+    border: 2px solid transparent;
+    margin-right: 3px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .selectedimagetype {
+    border: 2px solid teal;
+    border-radius: 5px;
+  }
+  
+  h3 {
+    font-size: 25px;
+  }
+  
+  .feature {
+    box-sizing: content-box;
+    padding: 10px;
+    font-weight: 600;
+    width: 100px;
+    background-color: gainsboro;
+    border: 0px;
+    margin-right: 10px;
+    font-size: 17px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .featureselected {
+    background-color: grey;
+    color: white;
+  }
+  
+  .last {
+    background-color: teal;
+  
+    width: 100px;
+    margin-top: 20px;
+    padding: 10px;
+    box-sizing: content-box;
+    font-weight: 700;
+    font-size: 17px;
+    color: white;
+    border: 0px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+
+ 

@@ -1,0 +1,67 @@
+.Product {
+    width: 100%;
+    position: relative;
+
+  }
+  
+  .Product > img {
+    width: 100%;
+  }
+  
+  .Timedata {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%,-50%);
+    font-size: 30px;
+    font-weight: 600;
+  }
+  
+  .Heartbeat {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%,-50%);
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+  }
+  .Heartbeat > img {
+    width: 100px;
+    margin-top: 10px;
+    animation: beat 1s infinite;
+  }
+  .Heartbeat > p {
+    margin-top: 0px;
+  }
+  
+  @keyframes beat {
+    0%{
+      transform: scale(1, 1);
+    }
+  
+    50%{
+      transform: scale(1.25, 1.25);
+    }
+  
+    100% {
+      transform: scale(1, 1);
+    }
+  }
+
+  @media screen and (max-width : 900px) {
+    .Product {
+      text-align: center;
+    }
+    .Product > img {
+      height: 75vh;
+      /* transform: scaleX(1.5); */
+    }
+    .Heartbeat > img {
+      width: 80px;
+    }
+  }
+
+  

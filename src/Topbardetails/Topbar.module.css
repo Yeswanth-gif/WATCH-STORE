@@ -1,0 +1,22 @@
+.Topbar {
+    background-color: black;
+    text-align: center;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+  }
+  
+  .head {
+    color: orange;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 2px solid white;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 8px ;
+    background-color: white;
+  }
+  
+  .Topbar > img {
+    width: 100px;
+    padding: 8px;
+  }

@@ -1,0 +1,39 @@
+
+
+.Maincontainer {
+  width: 100%;
+  padding: 0% 12%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+
+.Product {
+  width: 50%;
+}
+
+.productdata {
+  width: 50%;
+}
+
+
+@media screen and (max-width : 900px){
+  .Maincontainer {
+    display: block;
+    padding: 5px 4px;
+  }
+  .Product {
+    width: 100%;
+  }
+  .productdata {
+    width: 100%;
+  }
+
+  .Topbar {
+    background-color: black;
+    text-align: center;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+  }
+}
